@@ -5,7 +5,8 @@
 #include <sys/mman.h>
 
 #include "dynasm/dasm_proto.h"
-#include "dynasm/dasm_x86.h"
+//#include "dynasm/dasm_x86.h"
+#include "dynasm/dasm_arm.h"
 
 void initjit(dasm_State **state, const void *actionlist);
 void *jitcode(dasm_State **state);
